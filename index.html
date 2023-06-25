@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora Interactiva</h1>
+    </header>
+    <main>
+        <div class="buttons">
+            <button onclick="realizarOperacion('suma')">Suma</button>
+            <button onclick="realizarOperacion('resta')">Resta</button>
+            <button onclick="realizarOperacion('division')">División</button>
+            <button onclick="realizarOperacion('multiplicacion')">Multiplicación</button>
+            <button onclick="realizarOperacion('porcentaje')">Porcentaje</button>
+        </div>
+        <div class="filter">
+            <!-- Select para filtrar el historial -->
+            <label for="filtro-operacion">Filtrar por operación:</label>
+            <select id="filtro-operacion">
+                <option value="todos">Todos</option>
+                <option value="suma">Suma</option>
+                <option value="resta">Resta</option>
+                <option value="division">División</option>
+                <option value="multiplicacion">Multiplicación</option>
+                <option value="porcentaje">Porcentaje</option>
+            </select>
+        </div>
+        <div class="botonHistorial">
+            <!-- Botón para mostrar el historial filtrado en la consola -->
+            <button onclick="mostrarHistorialFiltrado()">Mostrar Historial Filtrado en Consola</button>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./JS/app.js"></script>
+</body>
+
+</html>
