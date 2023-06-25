@@ -13,7 +13,38 @@ h1 {
     display: flex;
     margin-top: 3rem;
     justify-content: center;
-    font-size: 3rem
+    font-size: 3rem;
+    gap:1rem;
+}
+
+.buttonRed{
+    background-color:#d32332;
+    color: white;
+    width: 5rem;
+}
+
+.buttonBlue{
+    background-color:#4798c6;
+    color:white ;
+    width: 5rem;
+}
+
+.buttonBlack{
+    background-color:#5e5b5a;
+    color:white ;
+    width: 5rem;
+}
+
+.buttonPink{
+    background-color: pink;
+    color:black ;
+    width: 7rem;
+}
+
+.buttonGreen{
+    background-color:#3cc03c;
+    color:white ;
+    width: 5rem;
 }
 
 .filter{
